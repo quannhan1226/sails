@@ -34,7 +34,11 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
+  '/upload':{
+    view:'upload'
+  },
+  'POST /test/test':'TestController.test',
 
   /***************************************************************************
   *                                                                          *
